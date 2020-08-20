@@ -6,7 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "rollup",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidqqq/rollup-plugin-ts-transpile-on-the-fly.git"
+  },
   "author": "lidqqq <lidqqq.dev@gmail.com> (https://lidqqq.dev/)",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lidqqq/rollup-plugin-ts-transpile-on-the-fly/issues"
+  },
+  "homepage": "https://github.com/lidqqq/rollup-plugin-ts-transpile-on-the-fly#readme"
 }
