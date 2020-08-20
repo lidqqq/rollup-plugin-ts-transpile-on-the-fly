@@ -10,6 +10,11 @@
     "rollup",
     "typescript"
   ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lidqqq/rollup-plugin-ts-transpile-on-the-fly.git"
