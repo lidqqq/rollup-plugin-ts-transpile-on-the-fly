@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-ts-transpile-on-the-fly",
+  "name": "@lidqqq/rollup-plugin-ts-transpile-on-the-fly",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
