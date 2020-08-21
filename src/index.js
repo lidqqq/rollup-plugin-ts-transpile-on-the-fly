@@ -15,10 +15,10 @@ function loadConfig(mainPath, ts) {
   return parsedTsConfig;
 }
 
-function tsPlugin(mainPath, ts) {
-  const config = loadConfig(mainPath);
+function tsPlugin({ configPath, ts }) {
+  const config = loadConfig(configPath, ts);
   return {
-    name: "ts-transpile-on-the-fl",
+    name: "ts-transpile-on-the-fly",
     async load(id) {
       if (!extRe.test(id)) return null;
 

@@ -4,9 +4,12 @@
   "description": "rollup plugin to transpile TypeScript code",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "pretest": "npm run build",
+    "test": "$(npm bin)/mocha",
+    "build": "$(npm bin)/rollup -c",
+    "prepublish": "npm test"
   },
   "keywords": [
     "rollup",
@@ -21,6 +24,7 @@
     "rollup": "^1.20.0 || ^2.0.0"
   },
   "devDependencies": {
+    "mocha": "^8.1.1",
     "rollup": "^2.26.4",
     "typescript": "^3.9.7"
   },
