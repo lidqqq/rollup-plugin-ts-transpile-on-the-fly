@@ -1,6 +1,6 @@
 {
   "name": "@lidqqq/rollup-plugin-ts-transpile-on-the-fly",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "rollup plugin to transpile TypeScript code",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
