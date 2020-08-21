@@ -2,14 +2,15 @@
   "name": "@lidqqq/rollup-plugin-ts-transpile-on-the-fly",
   "version": "1.0.2",
   "description": "rollup plugin to transpile TypeScript code",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
   "module": "dist/index.es.js",
   "type": "module",
   "scripts": {
     "pretest": "npm run build",
     "test": "$(npm bin)/mocha",
     "build": "$(npm bin)/rollup -c",
-    "prepublish": "npm test"
+    "clean": "rm -rf dist",
+    "prepublish": "npm run clean && npm test"
   },
   "keywords": [
     "rollup",
